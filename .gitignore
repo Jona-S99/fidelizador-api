@@ -1,0 +1,27 @@
+# History and temp files
+.Rhistory
+.RData
+.Rproj.user
+.Ruserdata
+.Rhistory
+.Renviron
+
+# R package/library folders
+renv/library/
+renv/staging/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Editor directories
+.vscode/
+.idea/
+
+# Ignore user-specific files
+*.Rproj.user
+
+# Ignore lockfiles created by other tools
+*.lock
