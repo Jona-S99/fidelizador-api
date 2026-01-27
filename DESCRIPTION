@@ -1,9 +1,9 @@
 Package: fidelizadorapi
-Title: What the Package Does (One Line, Title Case)
+Title: API de Fidelizador
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Jonatan", "Salazar", , "salazarjonatan.soc@gmail.com", role = c("aut", "cre"))
+Description: Esta libreria concentra un conjunto de funciones para trabajar con el API oficial de Fidelizador.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
