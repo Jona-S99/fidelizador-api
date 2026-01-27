@@ -1,11 +1,13 @@
 Package: fidelizadorapi
-Title: API de Fidelizador
+Title: API FidelizadoR
 Version: 0.0.0.9000
 Authors@R: 
     person("Jonatan", "Salazar", , "salazarjonatan.soc@gmail.com", role = c("aut", "cre"))
-Description: Esta libreria concentra un conjunto de funciones para trabajar con el API oficial de Fidelizador.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: Esta libreria concentra un conjunto de funciones para trabajar con la API oficial de Fidelizador.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
+Imports: 
+    curl,
+    httr2
