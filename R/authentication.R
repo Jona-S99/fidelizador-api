@@ -9,7 +9,7 @@ flz_set_credentials <- function(client_id, client_secret) {
     FIDELIZADOR_CLIENT_ID = client_id,
     FIDELIZADOR_CLIENT_SECRET = client_secret
   )
-  message("Credenciales guardadas en la sesión actual")
+  message("Credenciales guardadas en la sesi<c3><b3>n actual")
 }
 
 #' Obtener credenciales desde variables de entorno
@@ -35,8 +35,8 @@ flz_get_credentials <- function() {
 
 #' Autenticarse con la API de Fidelizador usando Client Credentials
 #'
-#' @param client_id Client ID obtenido del portal de Fidelizador (opcional si ya se seteó como variable de entorno)
-#' @param client_secret Client Secret obtenido del portal de Fidelizador (opcional si ya se seteó como variable de entorno)
+#' @param client_id Client ID obtenido del portal de Fidelizador (opcional si ya se sete<c3><b3> como variable de entorno)
+#' @param client_secret Client Secret obtenido del portal de Fidelizador (opcional si ya se sete<c3><b3> como variable de entorno)
 #' @param base_url URL base de la API (por defecto: "https://api.fidelizador.com")
 #'
 #' @return Token de acceso
@@ -54,7 +54,7 @@ flz_auth <- function(
     client_secret <- creds$client_secret
   }
 
-  # 2. Endpoint de autenticación
+  # 2. Endpoint de autenticaci<c3><b3>n
   endpoint <- paste0(base_url, "/oauth/v2/token")
 
   # 3. Realizar la solicitud de token
