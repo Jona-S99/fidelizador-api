@@ -25,3 +25,6 @@ renv/staging/
 
 # Ignore lockfiles created by other tools
 *.lock
+
+# Carpeta de test personales
+/script_test/
