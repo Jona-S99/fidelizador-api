@@ -1,5 +1,5 @@
 
-# fidelizadorapi <img src="man/figures/fidelizador_logo_pkg.png" align="right" alt="" width="120" />
+# fidelizadorapi <img src="man/figures/fidelizador_logo_pkg.png" align="right" height="138" />
 
 > Cliente R para la API oficial de Fidelizador
 
