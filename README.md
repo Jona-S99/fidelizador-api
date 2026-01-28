@@ -78,3 +78,7 @@ Las contribuciones son bienvenidas. Por favor, abre un issue o pull request en G
 ## Soporte
 
 Para reportar problemas o solicitar nuevas funcionalidades, abre un issue en el repositorio de GitHub.
+
+#### Nota
+
+El animal del logo es un ![Huillin](https://es.wikipedia.org/wiki/Lontra_provocax)
