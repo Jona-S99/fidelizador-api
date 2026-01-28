@@ -1,6 +1,6 @@
 Package: fidelizadorapi
 Title: API FidelizadoR
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person("Jonatan", "Salazar", , "salazarjonatan.soc@gmail.com", role = c("aut", "cre"))
 Description: Esta libreria concentra un conjunto de funciones para trabajar con la API oficial de Fidelizador.
