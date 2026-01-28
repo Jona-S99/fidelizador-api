@@ -81,4 +81,4 @@ Para reportar problemas o solicitar nuevas funcionalidades, abre un issue en el 
 
 #### Nota
 
-El animal del logo es un ![Huillin](https://es.wikipedia.org/wiki/Lontra_provocax)
+El animal del logo es un Huillín.
