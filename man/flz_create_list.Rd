@@ -14,13 +14,13 @@ flz_create_list(
 )
 }
 \arguments{
-\item{token}{Token de autenticaci\u00f3n obtenido con \code{flz_auth()}}
+\item{token}{Token de autenticación obtenido con \code{flz_auth()}}
 
 \item{client_slug}{Slug del cliente en Fidelizador}
 
 \item{name}{Nombre de la lista}
 
-\item{fields}{Vector con los slugs de campos personalizados (opcional). DEBEN SER EN MAY\u00daSCULAS.}
+\item{fields}{Vector con los slugs de campos personalizados (opcional). DEBEN SER EN MAYÚSCULAS.}
 
 \item{format}{Formato de respuesta: "json" o "xml" (por defecto: "json")}
 

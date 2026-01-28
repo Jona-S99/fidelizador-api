@@ -2,36 +2,38 @@
 % Please edit documentation in R/lists.R
 \name{flz_get_lists}
 \alias{flz_get_lists}
-\title{Obtener todas las listas de contactos}
+\title{Obtener todas las listas del sistema}
 \usage{
 flz_get_lists(
   token,
   client_slug,
-  name = NULL,
-  page = NULL,
-  items = NULL,
   format = "json",
   base_url = "https://api.fidelizador.com"
 )
 }
 \arguments{
-\item{token}{Token de acceso obtenido con flz_auth()}
+\item{token}{Token de autenticación obtenido con \code{flz_auth()}}
 
-\item{client_slug}{Slug del cliente}
+\item{client_slug}{Slug del cliente de Fidelizador.}
 
-\item{name}{Opcional - Filtrar listas por nombre}
+\item{format}{Formato de respuesta: "json" o "xml" (por defecto "json")}
 
-\item{page}{Opcional - N\u00famero de p\u00e1gina}
-
-\item{items}{Opcional - Cantidad de resultados por p\u00e1gina (1-100)}
-
-\item{format}{Formato de retorno (json o xml). Por defecto: "json"}
-
-\item{base_url}{URL base de la API}
+\item{base_url}{URL base de la API (por defecto: "https://api.fidelizador.com")}
 }
 \value{
-Lista de contactos
+Objeto con la respuesta de la API conteniendo todas las listas
 }
 \description{
-Obtener todas las listas de contactos
+Obtiene todas las listas de contactos del sistema en Fidelizador.
+}
+\examples{
+\dontrun{
+token <- flz_auth()
+
+# Obtener todas las listas
+listas <- flz_get_lists(
+  token = token,
+  client_slug = "mi-empresa"
+)
+}
 }
