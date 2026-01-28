@@ -1,0 +1,56 @@
+url: https://Jona-S99.github.io/fidelizador-api/
+
+template:
+  bootstrap: 5
+  bootswatch: flatly
+
+home:
+  title: fidelizadorapi
+  description: Cliente R para la API de Fidelizador
+
+navbar:
+  title: fidelizadorapi
+  left:
+    - icon: fa-home
+      href: index.html
+    - text: Reference
+      href: reference/index.html
+    - text: Articles
+      menu:
+      - text: Primeros pasos
+        href: articles/getting-started.html
+    - text: News
+      href: news/index.html
+
+reference:
+  - title: Autenticación
+    desc: Funciones para autenticarse en la API
+    contents:
+    - flz_auth
+    - flz_get_credentials
+    - flz_set_credentials
+    
+  - title: Listas
+    desc: Gestión de listas de contactos
+    contents:
+    - flz_get_lists
+    - flz_create_list
+    - flz_delete_list
+    
+  - title: Categorías
+    desc: Gestión de categorías
+    contents:
+    - flz_get_categories
+    
+  - title: Campañas
+    desc: Creación y gestión de campañas
+    contents:
+    - flz_create_campaign_newsletter
+    - flz_send_test_campaign
+    - flz_schedule_campaign
+    
+  - title: Usuarios
+    desc: Gestión de usuarios
+    contents:
+    - flz_get_users
+
