@@ -1,5 +1,8 @@
 # fidelizadorapi ![](reference/figures/fidelizador_logo_pkg.png)
 
+[![R-CMD-check](https://github.com/Jona-S99/fidelizadorapi/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Jona-S99/fidelizadorapi/actions/workflows/R-CMD-check.yaml)
+[![pkgdown](https://github.com/Jona-S99/fidelizadorapi/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/Jona-S99/fidelizadorapi/actions/workflows/pkgdown.yaml)
+
 > Cliente R para la API oficial de Fidelizador
 
 ## Descripción
