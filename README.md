@@ -5,9 +5,7 @@
 
 ## Descripción
 
-`fidelizadorapi` es un paquete de R (versión de desarrollo 0.0.0.9000) que reúne funciones para trabajar con la API oficial de Fidelizador. Facilita tareas de autenticación y consulta de recursos desde R.
-
-**Autor:** Jonatan Salazar (`aut`, `cre`)
+`fidelizadorapi` es una librería de R que reúne funciones para trabajar con la API oficial de Fidelizador, facilitando tareas de autenticación, consulta de recursos y gestión de campañas desde R.
 
 ## Instalación
 
@@ -64,19 +62,6 @@ library(fidelizadorapi)
 token <- flz_auth()
 ```
 
-## Funciones disponibles
-
-### Autenticación
-- `flz_set_credentials()` - Guardar credenciales en variables de entorno
-- `flz_get_credentials()` - Obtener credenciales desde variables de entorno
-- `flz_auth()` - Autenticarse con la API de Fidelizador
-
-### Usuarios
-- `flz_get_users()` - Obtener usuarios existentes
-
-### Listas
-- `flz_get_lists()` - Obtener listas de contactos
-
 ## Encontrar tu Client Slug
 
 Tu `client_slug` se encuentra en la URL del portal de Fidelizador:
@@ -85,10 +70,6 @@ Tu `client_slug` se encuentra en la URL del portal de Fidelizador:
 https://cl1.fidelizador.com/{client-slug}/dashboard/
                             ^^^^^^^^^^^^
 ```
-
-## Licencia
-
-Por definir. Revisa el archivo `DESCRIPTION` para más detalles.
 
 ## Contribuciones
 
