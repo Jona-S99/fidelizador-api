@@ -1,4 +1,4 @@
-url: https://Jona-S99.github.io/fidelizador-api/
+url: https://Jona-S99.github.io/fidelizadorapi/
 
 template:
   bootstrap: 5
@@ -7,6 +7,8 @@ template:
 home:
   title: fidelizadorapi
   description: Cliente R para la API de Fidelizador
+  sidebar:
+    structure: [links, license, community, authors, dev]
 
 navbar:
   title: fidelizadorapi
@@ -15,12 +17,11 @@ navbar:
       href: index.html
     - text: Reference
       href: reference/index.html
-    - text: Articles
-      menu:
-      - text: Primeros pasos
-        href: articles/getting-started.html
     - text: News
       href: news/index.html
+  structure:
+    left: [intro, reference, articles, news]
+    right: [search, github]
 
 reference:
   - title: Autenticación
