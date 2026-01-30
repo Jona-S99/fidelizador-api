@@ -21,6 +21,8 @@ Gestión de listas de contactos
   : Crear una nueva lista de contactos
 - [`flz_delete_list()`](https://Jona-S99.github.io/fidelizadorapi/reference/flz_delete_list.md)
   : Borrar una lista de contactos
+- [`flz_import_contacts()`](https://Jona-S99.github.io/fidelizadorapi/reference/flz_import_contacts.md)
+  : Importar contactos a una lista
 
 ## Categorías
 

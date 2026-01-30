@@ -2,6 +2,13 @@
 
 ## fidelizadorapi (development version)
 
+### 0.0.2: Contactos
+
+#### Gestión de listas
+
+- [`flz_import_contacts()`](https://Jona-S99.github.io/fidelizadorapi/reference/flz_import_contacts.md):
+  Importa contactos desde un archivo csv a una lista de fidelizador
+
 ### 0.0.1: funcionalidades iniciales
 
 #### Autenticación
