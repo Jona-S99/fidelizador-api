@@ -37,6 +37,7 @@ reference:
     - flz_get_lists
     - flz_create_list
     - flz_delete_list
+    - flz_import_contacts
     
   - title: Categorías
     desc: Gestión de categorías
