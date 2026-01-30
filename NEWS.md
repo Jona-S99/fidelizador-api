@@ -1,5 +1,10 @@
 # fidelizadorapi (development version)
 
+## 0.0.2: Contactos
+
+### Gestión de listas
+* `flz_import_contacts()`: Importa contactos desde un archivo csv a una lista de fidelizador
+
 ## 0.0.1: funcionalidades iniciales
 
 ### Autenticación
